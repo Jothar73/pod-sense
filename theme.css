@@ -1,0 +1,51 @@
+:root {
+  /* ===== BRAND COLORS ===== */
+  --color-primary: #3CB6B1;       /* Vibrant teal */
+  --color-primary-light: #A8E6E2; /* Soft mint aqua */
+  --color-primary-dark: #247C78;  /* Deep teal for hover/active */
+
+  /* ===== ACCENT COLORS ===== */
+  --color-accent-1: #F76C5E;      /* Coral orange */
+  --color-accent-2: #FFD97D;      /* Sunny yellow */
+  --color-accent-3: #1D3557;      /* Navy ink / dark heading tone */
+
+  /* ===== NEUTRALS ===== */
+  --color-bg: #FFF8F2;            /* Cream white background */
+  --color-surface: #FFFFFF;       /* Card or elevated surface */
+  --color-border: #3CB6B1;        /* Light gray border */
+  --color-text: #2E2E2E;          /* Primary text */
+  --color-text-muted: #6B7577;    /* Secondary text */
+
+  /* ===== SEMANTIC COLORS ===== */
+  --color-success: #3CB6B1;       /* Teal as success color */
+  --color-warning: #FFD97D;       /* Warm yellow for warning */
+  --color-error: #F76C5E;         /* Coral red for error */
+  --color-info: #A8E6E2;          /* Soft mint for info */
+
+  /* ===== SHADOWS ===== */
+  --shadow-light: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  /* ===== TRANSITIONS ===== */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-medium: 0.3s ease-in-out;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1D3557;
+  --color-surface: #2A3B61;
+  --color-border: #247C78;
+  --color-text: #FFF8F2;
+  --color-text-muted: #B0B8B8;
+
+  --color-primary: #3CB6B1;
+  --color-primary-light: #A8E6E2;
+  --color-primary-dark: #1C5C59;
+
+  --color-accent-1: #F76C5E;
+  --color-accent-2: #FFD97D;
+  --color-accent-3: #A8E6E2;
+
+  --shadow-light: 0 2px 6px rgba(255, 255, 255, 0.05);
+  --shadow-medium: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
