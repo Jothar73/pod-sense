@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://jothar73.github.io/pod-sense/static/css/main.8bf6368f.css",
-    "main.js": "https://jothar73.github.io/pod-sense/static/js/main.a9fcca33.js",
+    "main.js": "https://jothar73.github.io/pod-sense/static/js/main.b1bb7af3.js",
     "index.html": "https://jothar73.github.io/pod-sense/index.html",
     "main.8bf6368f.css.map": "https://jothar73.github.io/pod-sense/static/css/main.8bf6368f.css.map",
-    "main.a9fcca33.js.map": "https://jothar73.github.io/pod-sense/static/js/main.a9fcca33.js.map"
+    "main.b1bb7af3.js.map": "https://jothar73.github.io/pod-sense/static/js/main.b1bb7af3.js.map"
   },
   "entrypoints": [
     "static/css/main.8bf6368f.css",
-    "static/js/main.a9fcca33.js"
+    "static/js/main.b1bb7af3.js"
   ]
 }
