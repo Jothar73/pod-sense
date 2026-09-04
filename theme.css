@@ -1,34 +1,36 @@
 :root {
   /* ===== BRAND COLORS ===== */
-  --color-primary: #2FA6A0;       /* Rich teal */
-  --color-primary-light: #A8E6E2; /* Soft mint aqua */
-  --color-primary-dark: #1F7A75;  /* Deep teal for hover/active */
+  --color-primary: #2fa6a0; /* Rich teal */
+  --color-primary-light: #a8e6e2; /* Soft mint aqua */
+  --color-primary-dark: #1f7a75; /* Deep teal for hover/active */
 
   /* ===== ACCENT COLORS ===== */
-  --color-accent-1: #F76C5E;      /* Coral orange */
-  --color-accent-2: #FFD97D;      /* Sunny yellow */
-  --color-accent-3: #1D3557;      /* Navy ink / dark heading tone (flips light in dark mode) */
+  --color-accent-1: #f76c5e; /* Coral orange */
+  --color-accent-2: #ffd97d; /* Sunny yellow */
+  --color-accent-3: #1d3557; /* Navy ink / dark heading tone (flips light in dark mode) */
 
   /* ===== NEUTRALS ===== */
-  --color-bg: #FFF8F2;            /* Cream white background */
-  --color-surface: #FFFFFF;       /* Card or elevated surface */
-  --color-border: #E4DECF;        /* Neutral warm border, keeps focus/hover teal as the accent */
-  --color-text: #24313D;          /* Primary text */
-  --color-text-muted: #6E7A82;    /* Secondary text */
+  --color-bg: #fff8f2; /* Cream white background */
+  --color-surface: #ffffff; /* Card or elevated surface */
+  --color-border: #e4decf; /* Neutral warm border, keeps focus/hover teal as the accent */
+  --color-text: #24313d; /* Primary text */
+  --color-text-muted: #6e7a82; /* Secondary text */
 
   /* Stable ink color for text on fixed-brightness accent surfaces (yellow tags/banners) —
      intentionally does NOT flip in dark mode, since the surface behind it doesn't either. */
-  --color-ink: #1D3557;
+  --color-ink: #1d3557;
 
   /* ===== SEMANTIC COLORS ===== */
-  --color-success: #2FA6A0;       /* Teal as success color */
-  --color-warning: #FFD97D;       /* Warm yellow for warning */
-  --color-error: #F76C5E;         /* Coral red for error */
-  --color-info: #A8E6E2;          /* Soft mint for info */
+  --color-success: #2fa6a0; /* Teal as success color */
+  --color-success-text: #17605d; /* Accessible success text */
+  --color-warning: #ffd97d; /* Warm yellow for warning */
+  --color-error: #f76c5e; /* Coral red for error */
+  --color-info: #a8e6e2; /* Soft mint for info */
 
   /* ===== DISABLED STATE ===== */
-  --color-disabled-bg: #E3DFD6;
-  --color-disabled-text: #A3A9AE;
+  --color-disabled-bg: #e3dfd6;
+  --color-disabled: #e3dfd6;
+  --color-disabled-text: #a3a9ae;
 
   /* ===== SHADOWS ===== */
   --shadow-light: 0 2px 8px rgba(31, 41, 51, 0.08);
@@ -39,23 +41,25 @@
   --transition-medium: 0.3s ease-in-out;
 }
 
-[data-theme="dark"] {
-  --color-bg: #131F35;
-  --color-surface: #1E2E4E;
-  --color-border: #34486B;
-  --color-text: #F2ECDF;
-  --color-text-muted: #9FAAB8;
+[data-theme='dark'] {
+  --color-bg: #131f35;
+  --color-surface: #1e2e4e;
+  --color-border: #34486b;
+  --color-text: #f2ecdf;
+  --color-text-muted: #9faab8;
 
-  --color-primary: #45C9C2;
-  --color-primary-light: #A8E6E2;
-  --color-primary-dark: #2A8F89;
+  --color-primary: #45c9c2;
+  --color-primary-light: #a8e6e2;
+  --color-primary-dark: #2a8f89;
+  --color-success-text: #a8e6e2;
 
-  --color-accent-1: #F76C5E;
-  --color-accent-2: #FFD97D;
-  --color-accent-3: #A8E6E2;
+  --color-accent-1: #f76c5e;
+  --color-accent-2: #ffd97d;
+  --color-accent-3: #a8e6e2;
 
-  --color-disabled-bg: #2B3A54;
-  --color-disabled-text: #6B7A90;
+  --color-disabled-bg: #2b3a54;
+  --color-disabled: #2b3a54;
+  --color-disabled-text: #6b7a90;
 
   --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.35);
   --shadow-medium: 0 10px 28px rgba(0, 0, 0, 0.45);
